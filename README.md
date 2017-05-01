@@ -1,7 +1,18 @@
 # Getting and Cleaning Data Project
 - Sourav B
 
-This is the course project for the Getting and Cleaning Data Coursera course.
+This repository is for the submission of the course project for the Coursera Getting and Cleaning Data course.
+
+### Overview
+This project demonstrates the gathering and cleaning data to make a tidy dataset that can be used for subsequent
+analysis. Full description of the data used in this project is present at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+The source data for this project can be found[ here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+### Data analysis
+The data is obtained and unzipped to get the data source files. Modifications to obtain tidy data from raw data is scripted in run_analysis.R file.
+
+### Project Summary
 The R script, `run_analysis.R`, does the following:
 
 ```sh
@@ -16,4 +27,4 @@ The R script, `run_analysis.R`, does the following:
    variable for each subject and activity pair.
 ```
 
-####The end result is written in the file `tidy.txt`.
+#### The end result is written in the file `tidy.txt`.
